@@ -1,0 +1,105 @@
+
+
+
+
+/* Войти */
+
+/* Общие стили для центрирования содержимого */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 18px;
+    background-color: #f4f4f4; /* Цвет фона страницы */
+    color: #333; /* Цвет текста */
+}
+
+/* Стили для блока регистрации */
+.login {
+    text-align: center;
+    background-color: #fff; /* Цвет фона формы */
+    border-radius: 8px; /* Закругляем углы формы */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень для формы */
+}
+
+.login form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;
+    color: #000000;
+    border: 2px solid #000000; /* Обводка черным цветом */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login form label,
+.login form input,
+.login form button {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.login form button {
+    padding: 10px;
+    display: block;
+    background-color: #4CAF50;
+    color: #fff;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+/* styles.css */
+
+/* Стили для таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Стили для заголовка таблицы */
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Стили для альтернативных строк таблицы */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Стили для первой колонки */
+tbody td:first-child {
+    font-weight: bold;
+}
+
+/* Общие стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+

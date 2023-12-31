@@ -1,0 +1,39 @@
+.register {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto; /* Добавлено для центрирования формы по горизонтали */
+}
+
+.register form input {
+    width: calc(100% - 24px);
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register form label,
+.register form input,
+.register form button {
+    display: block;
+
+}
+.register form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Изменено для занимания всей доступной ширины */
+    box-sizing: border-box;
+}
